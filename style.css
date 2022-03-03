@@ -1,0 +1,163 @@
+
+* {
+   box-sizing: border-box;
+}
+
+
+/* Custom navbar */
+.nav-item:hover {
+   border-bottom: 1px solid rgba(14,174,87,1);
+}
+
+.navbar-brand:hover {
+   color: rgba(14,174,87,1);
+}
+
+.navbar-toggler:hover {
+   background:rgba(14, 174, 86, 0.1);
+}
+
+.navbar-toggler:focus {
+   box-shadow: none;
+}
+
+.brand-text {
+   color: rgba(14,174,87,1);
+   font-size: 1.5rem;
+   font-weight: bold;
+}
+
+/* Intro */
+
+.intro-container {
+   width: 36%;
+   min-width: 280px;
+   margin-top: 2rem;
+}
+
+.intro-img {
+   width: 90%;
+   border: solid 2px rgb(203, 233, 216);
+}
+
+
+#intro {
+   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
+   margin-top: 2%;
+}
+
+
+@media only screen and (max-width: 576px) {
+   .intro-text-container {
+      display: none;
+   }  
+   
+}
+
+@media only screen and (min-width: 768px) {
+   .intro-text-container {
+      margin-left: 5rem;
+      margin-top: 3rem;
+      display: block;
+   }
+   .intro-text {
+      font-size: 3.5rem;
+   }
+   .head {
+      text-align: left;
+   }
+   .bold-line {
+      float: none;
+   }
+
+   .info-desc {
+      font-size: 1.2rem;
+   }
+
+   #contact { 
+      padding: 2rem;
+   }
+}
+
+@media only screen and (min-width: 992px) {
+   .intro-text-container {
+      margin-left: 7rem;
+      margin-top: 3rem;      
+   }
+   
+   .intro-text {
+      font-size: 3.5rem;
+      color: black;  
+   }
+   .head {
+      text-align: right;
+   }
+   .bold-line {
+      float: right;
+   }
+
+   #contact { 
+      padding: 5rem;
+   }
+}
+
+/* Education */
+.edu-container {
+   width: 100%;
+}
+
+.sub-edu-container {
+   height: 100%;
+}
+
+.line {
+   border-bottom: 1px solid #000;
+   width: 50%;
+   margin: 1rem 0;
+}
+
+.horizontal-line {
+   border-right: 2px solid #000;
+   height: 100%;
+   /* margin: 0 2rem; */
+}
+
+.edu-img {
+   width: 100%;
+   height: 60%;
+}
+
+/* Contact */
+.info {
+   color: white;
+}
+
+.info-heading {
+   margin-bottom: 1rem;
+}
+
+#contact {
+   background: linear-gradient(90.08deg, #060925 3.41%, #06681C 39.9%);
+   padding: 2rem;
+}
+
+/* Hobby */
+
+.hobby {
+   width: 100%;
+   height: 100%;
+}
+
+.bold-line, .bold-line-edu {
+   border-bottom: 4px #000 solid;
+   width: 30%;
+}
+
+.hobby-img {
+   height: 300px;
+   width: 100%;
+}
+
+.info-desc {
+   font-size: 1rem;
+}
